@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="wrapper">
     <header>
         <nav>
-            <img class="logo" src="images/logo.png">
+            <img class="logo" src="images/logo.png" alt="ZoCom logo">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -18,44 +20,43 @@
                 </ul>
         </nav>
         <section class="banner">
-            <h1>Everything is designed</h1>
+            <h1><strong>Everything is designed</strong></h1>
             <button>pretty cool</button>
 
         </section>
     </header>
-
-<div class="wrapper"> <!--Varför lägger vi main i en div???-->
+ 
     <main>
         <article class="bigCard">
-            <section class="fakeImg"></section>
+            <img src="https://picsum.photos/200/300" alt="random picture" class="fakeImg">
             <h2>card title</h2>
             <p>I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>
         </article>
         <article class="smallCard">
-            <section class="fakeImg"></section>
+            <img src="https://picsum.photos/200" alt="random picture" class="fakeImg">
             <h2>card title</h2>
             <p>I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>
         </article>
         <article class="smallCard">
-            <section class="fakeImg"></section>
+            <img src="https://picsum.photos/200" alt="random picture" class="fakeImg">
             <h2>card title</h2>
             <p>I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>
         </article>
         <article class="smallCard">
-            <section class="fakeImg"></section>
+            <img src="https://picsum.photos/200" alt="random picture" class="fakeImg">
             <h2>card title</h2>
             <p>I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>
         </article>
         <article class="smallCard">
-            <section class="fakeImg"></section>
+            <img src="https://picsum.photos/200" alt="random picture" class="fakeImg">
             <h2>card title</h2>
             <p>I'm baby vexillologist normcore wayfarers, swag ramps humblebrag selvage butcher four dollar toast tousled four loko photo booth. DIY twee polaroid hella slow-carb art party deep v affogato chambray taxidermy chillwave venmo small batch.</p>
         </article>
-        <article class="quote">
-            <section class="fakeCircle"></section>
-            <p><em>" Holy smokes batman! "</em></p> <!--blockquote taggen istället?-->
-            <p><strong><em>Robin</strong></em></p> <!--cite taggen här istället då?-->
-        </article> 
+        <section class="quote">
+            <figure class="fakeCircle"></figure>
+            <blockquote><em>" Holy smokes batman! "</em></blockquote> 
+            <cite><strong><em>Robin</strong></em></cite> 
+        </section> 
 
 
 
@@ -63,9 +64,27 @@
 
 
     </main>
-    <footer>
-
-    </footer> <!--Ska footern verkligen ligga innanför denna div då?-->
+    <footer class="footer">
+            <div class="footerLeft">
+                <h2>Nav</h2>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footerCenter">
+                <h2>About us</h2>
+                <p>Tech virtual drone online browser platform through in a system. But stream software offline. Professor install angel sector anywhere create at components smart. Document fab developers encryption smartphone powered, bespoke.</p>
+            </div>
+            <div class="footerRight">
+                <h2>Social media</h2>
+                <a href="https://www.facebook.com/">
+                <img src="images/logo-facebook.svg" alt="facebook"></a>
+                <a href="https://www.youtube.com/">
+                <img height="30" src="images/youtube.png" alt="youtube"></a>
+                <a href="https://twitter.com/">
+                <img src="images/logo-twitter.svg" alt="twitter"></a>
+    </footer> 
 </div>
 </body>
 </html>

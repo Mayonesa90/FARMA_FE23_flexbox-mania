@@ -1,17 +1,96 @@
 body {
     margin: 0;
-
+    font-size: 16px;
+    
 }
 
-nav a {
-    text-decoration: none;
-    color: #000;
+button {
+    background-color: #fff;
+    border: none;
+    padding: 25px 50px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-family: "Ubuntu";
+    font-size: 20px;
+    margin-top: 
 
 }
 
 .wrapper {
     display: flex;
+    flex-direction: column;
+    font-family: "Ubuntu";
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 10vw ;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    padding-right: 3vw;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 60px;
+}
+
+.banner {
+    background-color: #333333;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+main {
+    padding: 5vh 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vw;
+    line-height: 20px;
+    justify-content: center;
+}
+
+.bigCard {
+    width: 40vw;
+    border-bottom: 2px solid #ccc;
+}
+
+.smallCard {
+    width: 20vw;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10vh;
+}
+
 .fakeImg {
     width: 100%;
     height: 288px;
@@ -22,4 +101,29 @@ nav a {
     height: 140px;
     background-color: #ccc;
     border-radius: 50%;
+}
+
+.quote {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 100vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+footer  {
+    background-color: #4f4f4f;
+    color: #ccc;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+h2, p {
+    font-family: sans-serif;
 }
