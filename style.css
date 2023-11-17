@@ -51,6 +51,10 @@ ul {
     justify-content: space-around;
 }
 
+.burgerMenu {
+    display: none;
+}
+
 .logo {
     width: 60px;
 }
@@ -175,5 +179,13 @@ p {
     height: 80vw;
     }
 
+    .burgerMenu {
+        display: block;
+        width: 25px;
+    }
+
+    ul {
+        display: none;
+    }
 
 }
