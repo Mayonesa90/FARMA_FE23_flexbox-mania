@@ -56,7 +56,7 @@ ul {
 }
 
 .logo {
-    width: 60px;
+    width: 80px;
 }
 
 .banner {
@@ -72,6 +72,7 @@ ul {
 h1 {
     font-size: 4em;
     letter-spacing: 2px;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -126,9 +127,13 @@ main {
     padding-bottom: 10vh;
 }
 
+blockquote {
+    font-size: 32px;
+}
+
 footer  {
     background-color: #4f4f4f;
-    color: #ccc;
+    color:white;
     text-decoration: none;
     display: flex;
     flex-wrap: wrap;
@@ -149,7 +154,7 @@ footer  {
 
 a {
     text-decoration: none;
-    color: #ccc;
+    color: white;
 }
 
 h2, p {
@@ -181,11 +186,19 @@ p {
 
     .burgerMenu {
         display: block;
-        width: 25px;
+        width: 30px;
+        height: 35px;
+
     }
 
     ul {
         display: none;
+    }
+
+    header nav {
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vh 3vw; 
     }
 
 }
