@@ -4,6 +4,20 @@ body {
     
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* ---------------- HEADER -------------------- */
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
 button {
     background-color: #fff;
     border: none;
@@ -14,18 +28,6 @@ button {
     font-size: 20px;
     margin-top: 30px;
 
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-header {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
 }
 
 header nav {
@@ -80,6 +82,8 @@ font-size: 64px;
     font-weight: 700;
 }
 
+/* ----------------- MAIN --------------- */
+
 main {
     padding: 5vh 10vw;
     display: flex;
@@ -90,7 +94,7 @@ main {
 }
 
 .bigCard {
-    width: 40vw;
+    width: 42.2vw;
     border-bottom: 2px solid #ccc;
 }
 
@@ -145,14 +149,17 @@ blockquote {
     margin: 30px 0 40px 0;
 }
 
+/* -------------- FOOTER ------------------*/
+
 footer  {
     background-color: #4f4f4f;
     color:white;
     text-decoration: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 2vw 10vw 10vw 10vw;
+    padding: 2vw 18vw 10vw 18vw;
     justify-content: space-between;
+    
 }
 
 .footerLeft h2 {
@@ -175,7 +182,7 @@ footer  {
 .footerCenter {
     width: 312px;
     line-height: 25px;
-    font-family: 'Ubuntu';
+    
 }
 
 .footerRight img {
@@ -185,6 +192,8 @@ footer  {
 .socialMediaIcon {
     width: 40px;
 }
+
+/* ------------------- FONTS ----------------- */
 
 a {
     text-decoration: none;
@@ -255,4 +264,7 @@ p {
         padding: 2vh 3vw; 
     }
 
+    footer  {
+        padding: 10vw 5vw;
+    }
 }
