@@ -173,7 +173,7 @@ footer  {
     padding-left: 0;
     line-height: 40px;
     margin: 0;
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Ubuntu'; 
     font-size: 14px;
     flex-direction: column;
     padding-top: 0;
@@ -182,7 +182,10 @@ footer  {
 .footerCenter {
     width: 312px;
     line-height: 25px;
-    
+}
+
+.footerLeft h3 {
+    margin-top: 23px;
 }
 
 .footerRight img {
@@ -219,22 +222,41 @@ p {
     font-family: 'Open Sans', sans-serif; 
 }
 
+.footerParagraph {
+    font-family: 'Ubuntu';
+    font-size: 16px;
+}
+
+/* ------------ ADJUSTMENTS FOR SMALL SCREEN --------------*/
 
 @media screen and (max-width: 600px) {
+   
     
+/* -------------- HEADER ---------------*/    
+    header nav {
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vh 3vw; 
+    } 
+   
+    ul {
+        display: none;
+    } 
+
+    .burgerMenu {
+        display: block;
+        width: 30px;
+        height: 35px;
+    }
+
     h1 {
         font-size: 48px;
     }
-
+/* ---------------- MAIN -------------*/
     main {
         padding: 5vh 2vw;
     }
-    
-    .footerLeft {
-        display: none;
-    }
 
-   
     .bigCard, .smallCard {
         width: 90vw;
     }
@@ -246,25 +268,12 @@ p {
     .bigCard img {
     height: 80vw;
     }
-
-    .burgerMenu {
-        display: block;
-        width: 30px;
-        height: 35px;
-
-    }
-
-    ul {
-        display: none;
-    }
-
-    header nav {
-        justify-content: space-between;
-        align-items: center;
-        padding: 2vh 3vw; 
-    }
-
+/* ------------ FOOTER ---------------*/
     footer  {
         padding: 10vw 5vw;
+    }
+    
+    .footerLeft {
+        display: none;
     }
 }
