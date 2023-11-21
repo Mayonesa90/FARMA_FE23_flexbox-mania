@@ -1,13 +1,11 @@
 body {
     margin: 0;
     font-size: 16px;
-    
 }
 
 .wrapper {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 
 /* ---------------- HEADER -------------------- */
@@ -27,7 +25,6 @@ button {
     font-family: 'Ubuntu';
     font-size: 20px;
     margin-top: 30px;
-
 }
 
 header nav {
@@ -73,8 +70,7 @@ ul {
 }
 
 h1 {
-/*    font-size: 4em;*/
-font-size: 64px;
+    font-size: 64px;
     letter-spacing: 2px;
     font-weight: bolder;
     text-align: center;
@@ -117,6 +113,7 @@ main {
     height: 288px;
     background-color: #ccc;
 }
+
 .fakeCircle {
     width: 140px;
     height: 140px;
@@ -140,7 +137,6 @@ cite {
     font-weight: 700;
     font-size: 20px;
 }
-
 
 blockquote {
     font-size: 25px;
